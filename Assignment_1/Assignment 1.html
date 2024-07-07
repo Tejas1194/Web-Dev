@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-man 2</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <header>
+        <h1>Spider-man 2</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Game Overview</a></li>
+                <li><a href="#highlights">Game Highlights</a></li>
+                <li><a href="#getting-started">How to Get Started</a></li>
+                <li><a href="#interactive">Quiz</a></li>
+                <li><a href="#download">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section id="overview">
+        <h2>Game Overview</h2>
+        <p>Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure in the critically acclaimed Marvel's Spider-Man franchise
+            <br>
+            After eight years behind the mask, Peter Parker is a crime-fighting master. Feel the full power of a more experienced spiderman aling with his new buddy Miles Morales. Both of them are ready to take on the world.
+    </section>
+
+    <section id="highlights">
+        <h2>Game Highlights</h2>
+        <img src="https://phx02pap006files.storage.live.com/y4mNjlvKI2AVz1GVdBqyOArOmd_B7rim662LcDSqn_rEXXSI4q2z95RV3Yvs6zchCtJzhE8L9of8BTmCg3QWhLfr3Vugoy5ffZb-l_Z5tI2eLz23rccxEiFTgr6wKYMRIXMGSK6o7ACr5iad-A90ga1OUf-mkAy9IATTK97wHC--66FypGNIPvDJWi9CmD29aHOfsqI33OagJx7kyYtjMiDIgM2Bs6W0tSWBO4g8IMhhPI?encodeFailures=1&width=385&height=217" alt="Spider-Man swinging through the city" width="1300" height="900">
+        <p>Play as both Peter Parker and Miles Morales</p>
+        
+        <img src="https://phx02pap006files.storage.live.com/y4m8EKwJYL6nCimltCamtN8p-wYLWLoPOTFsdPK6KZcZ7ciV7xUG2IKIBJPpKQluxQ3Eedfw_WQXrP-4Db0mfP8NRZoj-R4PmgKl-hDRB35QQ-cx3xtOk3Wl7KOjxXWWvEyH8FxJ-xnf9GgJVCazVbwarQN3XHAxI8Bb7TqY7J6cheD8K8Pkbi5YrsnfeQK_GEgfwJeyH_0r7j0sbbMPwt7hDEXBFKa1FYpcFX4WQlnaV8?encodeFailures=1&width=800&height=450" alt="Spider-Man in combat" width="1300" height="900">
+        <p>Experience the full power of a more experienced Spider-Man</p>
+        
+        <p>Watch the latest trailer and accolades video <a href="https://www.marvel.com/watch/trailers-and-extras/marvel-s-spider-man-2-accolades" target="_self">here</a>.</p>
+    </section>
+
+    <section id="getting-started">
+        <h2>How to Get Started</h2>
+        <p>To get started with Spider-Man, you'll need a PlayStation console. Begin by familiarizing yourself with the controls and practicing web-swinging. Start with the main storyline to get a feel for the game's mechanics and then explore side missions and challenges.</p>
+        <p>Here are some additional tips to help you dive into the world of Spider-Man:</p>
+        <ul>
+            <li><strong>Understand the Controls:</strong> Spend some time in the tutorial to master the basic controls, such as swinging, combat, and using gadgets. The better you know the controls, the more fluid and enjoyable your experience will be.</li>
+            <li><strong>Upgrade Your Abilities:</strong> As you progress through the game, you'll earn skill points. Use these points to upgrade Spider-Man's abilities, focusing on skills that enhance your preferred playstyle, whether it's combat, stealth, or traversal.</li>
+            <li><strong>Explore the City:</strong> Don't just stick to the main storyline. Take time to swing around New York City, discover hidden collectibles, and complete side missions. This not only enriches your experience but also provides valuable rewards and upgrades.</li>
+            <li><strong>Utilize Spider-Sense:</strong> Spider-Man's Spider-Sense is a crucial tool in both combat and exploration. Pay attention to it to dodge attacks, find hidden items, and get the upper hand in battles.</li>
+            <li><strong>Experiment with Suits and Gadgets:</strong> The game offers a variety of suits and gadgets, each with unique abilities. Experiment with different combinations to find what works best for different situations.</li>
+            <li><strong>Take on Challenges:</strong> Engage in various challenges scattered throughout the city, such as combat trials, stealth missions, and drone races. These challenges help you hone your skills and earn additional rewards.</li>
+            <li><strong>Enjoy the Story:</strong> Spider-Man features a rich and engaging story with well-developed characters. Take your time to enjoy the narrative, engage with characters, and immerse yourself in the world.</li>
+        </ul>
+        <p>By following these tips and taking the time to explore, upgrade, and experiment, you'll be well on your way to becoming the ultimate Spider-Man!</p>
+    </section>
+
+    <section id="interactive">
+        <h2>Quiz</h2>
+        <p>Put your spidy-sense to test in a small quiz</p>
+        <p id="question">Question </p>
+        <div id="answers">
+            <button onclick="selectAnswer(0)">Answer 1</button>
+            <button onclick="selectAnswer(1)">Answer 2</button>
+            <button onclick="selectAnswer(2)">Answer 3</button>
+            <button onclick="selectAnswer(3)">Answer 4</button>
+        </div>
+        <button onclick="nextQuestion()">Skip</button>
+        </div>
+    </section>  
+
+    <section id="download">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Spider-Man: The Game. All rights reserved.</p>
+    <a href="https://www.playstation.com/en-us/games/marvels-spider-man/" target="blank">Official Game Website</a>
+    <a href="https://www.reddit.com/r/SpidermanPS4/" target="_blank">Game Forums</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
